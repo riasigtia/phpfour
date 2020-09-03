@@ -8,7 +8,7 @@
 <div  class="main">
         <div>
         <form action="index.php" method="post">
-        <input type="text" id="text">
+        <input type="text" id="text" placeholder="Enter id">
         <button type="button" id="order">ORDER</button>
         </form>   
 </div>
