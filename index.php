@@ -3,14 +3,15 @@
 <head>
     <title>PHP</title>
     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 <div  class="main">
         <div>
-        <form action="index.php" method="post">
-        <input type="text" id="text" placeholder="Enter id">
-        <button type="button" id="order">ORDER</button>
-        </form>   
+<form action="index.php" method="post">
+        <input   id="text" type="text" placeholder="Enter id">
+        <button type="button"  class="btn btn-success" id="order">ORDER</button>
+        </form> 
 </div>
 <table class="table">    
               <tr>
